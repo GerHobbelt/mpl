@@ -33,6 +33,10 @@
 #include <boost/type_traits/is_same.hpp>
 #include <boost/detail/lightweight_test.hpp>
 
+#ifdef BOOST_MSVC
+# pragma warning(disable: 4310) // cast truncates constant value
+#endif
+
 namespace mpl = boost::mpl;
 
 // Accept a string as a template parameter!
