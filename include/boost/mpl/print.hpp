@@ -24,7 +24,7 @@ namespace aux {
 #if defined(BOOST_MSVC)
 # pragma warning(push, 3)
 // we only want one warning from MSVC, so turn off the other one
-# pragma warning(disable: 4307)
+# pragma warning(disable: 4307 4308)
 #elif defined(__MWERKS__)
 # pragma warn_hidevirtual on
    struct print_base { virtual void f() {} };
