@@ -48,7 +48,7 @@ namespace boost { namespace mpl { namespace aux {
 // forward declaration
 template< BOOST_MPL_AUX_NTTP_DECL(long, N) > struct advance_backward;
 
-#   undef BOOST_PP_ITERATION_PARAMS_1 
+#   undef  BOOST_PP_ITERATION_PARAMS_1 
 
 #   define BOOST_PP_ITERATION_PARAMS_1 \
     (3,(0, BOOST_MPL_LIMIT_UNROLLING, <boost/mpl/aux_/advance_backward.hpp>))

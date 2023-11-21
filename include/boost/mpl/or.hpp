@@ -39,7 +39,7 @@
 #endif
 #endif
 
-#   undef BOOST_MPL_PREPROCESSED_HEADER
+#   undef  BOOST_MPL_PREPROCESSED_HEADER
 
 #   define BOOST_MPL_PREPROCESSED_HEADER or.hpp
 #   include <boost/mpl/aux_/include_preprocessed.hpp>

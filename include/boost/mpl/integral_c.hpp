@@ -26,9 +26,9 @@
 #   define AUX_WRAPPER_PARAMS(N) typename T, T N
 #endif
 
-#undef AUX_WRAPPER_NAME
-#undef AUX_WRAPPER_VALUE_TYPE 
-#undef AUX_WRAPPER_INST
+#undef  AUX_WRAPPER_NAME
+#undef  AUX_WRAPPER_VALUE_TYPE 
+#undef  AUX_WRAPPER_INST
 
 #define AUX_WRAPPER_NAME integral_c
 #define AUX_WRAPPER_VALUE_TYPE T
